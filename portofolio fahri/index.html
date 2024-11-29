@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Icon -->
+    <link rel="icon" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">FAHRI</a>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <button>Get In Touch</button>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skilll">Skilll</a></li>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+          <svg viewBox="0 0 1500 500" data-aos="fade-down">
+            <text x="50%" y="50%" text-anchor="middle">FAHRI</text>
+          </svg>
+          <h1 data-aos="zoom-in-up">
+            INFORMATICS STUDENT at <span>Diponegoro University</span>
+          </h1>
+          <button data-aos="zoom-out"><span>Show my Work</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="assets/fahri.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>FAHRI</h1>
+                <div class="role">
+                  <h2>Front-End Developer</h2>
+                </div>
+              </div>
+              <p>
+                I am Muhammad Fahri, a student at the Informatics Study Program at Diponegoro University. I master various programming languages ​​including HTML, CSS, JavaScript, C++. I also master several frameworks such as bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skill
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div id="html" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/html5.svg" alt="html" />
+            </div>
+            <div id="css" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/css3.svg" alt="css" />
+            </div>
+            <div id="javascript" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/javascript.svg" alt="javascript" />
+            </div>
+            <div id="typescript" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/typescript.svg" alt="typescript" />
+            </div>
+            <div id="react" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/react.svg" alt="react" />
+            </div>
+            <div id="next" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/next.svg" alt="next" />
+            </div>
+            <div id="alpinejs" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/alpinejs.svg" alt="alpinejs" />
+            </div>
+            <div id="tailwind" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/tailwind.svg" alt="tailwind" />
+            </div>
+            <div id="mysql" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/mysql.svg" alt="mysql" />
+            </div>
+            <div id="posgresql" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/postgresql.svg" alt="postgresql" />
+            </div>
+            <div id="figma" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/figma.svg" alt="figma" />
+            </div>
+            <div id="github" data-aos="zoom-in-down" class="skill-box">
+              <img src="assets/icon/github.svg" alt="github" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Project
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="assets/icon/project1.png" alt="project" />
+
+              <div class="description">
+                <h1>Project Tim</h1>
+                <p>
+                    membuat tampilan front end dalam project tim
+                </p>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="assets/icon/project2.png" alt="project" />
+
+              <div class="description">
+                <h1>Landing Page</h1>
+                <p>
+                  membuat landing page kota bandung
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contact
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Name..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Phone..." />
+              <input type="text" placeholder="Subject..." />
+            </div>
+            <textarea name="message" placeholder="Message..."></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <a href="">FAHRI</a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            Undergraduate Informatics Student at Diponegoro University | Awardee BSI Scholaship Unggulan 2024 | Front-End Developer
+          </p>
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" name="youtube" type="logo"></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon
+                color="#fff"
+                name="facebook-circle"
+                type="logo"
+              ></box-icon>
+            </div>
+            <div class="social-media">
+              <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Skill</h1>
+            <ul>
+              <li>
+                <a href="#skill">React.js</a>
+              </li>
+              <li>
+                <a href="#skill">Next.js</a>
+              </li>
+              <li>
+                <a href="#skil">Alpine.js</a>
+              </li>
+              <li>
+                <a href="#skill">Tailwind CSS</a>
+              </li>
+              <li>
+                <a href="#skill">Typescript</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Technology</h1>
+            <ul>
+              <li>
+                <a href="#skill">Clerk Auth</a>
+              </li>
+              <li>
+                <a href="#skill">Prisma ORM</a>
+              </li>
+              <li>
+                <a href="#skill">Figma</a>
+              </li>
+              <li>
+                <a href="#skill">Github</a>
+              </li>
+              <li>
+                <a href="#skill">Shadcn UI</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#skill">Skill</a>
+              </li>
+              <li>
+                <a href="#project">Project</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
